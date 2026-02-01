@@ -8,6 +8,7 @@
   [RelayCommand] для команд (можно добавить позже)
   Типобезопасный binding без строк
   Теперь DataGrid обновляется реактивно без ручных вызовов DataGrid.Items.Refresh()! 🚀
+  DataGrid обновляется благодаря INotifyPropertyChanged, генерируемому автоматически. 🚀
 */
 using Bogus;
 using Microsoft.EntityFrameworkCore;
@@ -15,7 +16,6 @@ using Newtonsoft.Json;
 using Models;
 using RabbitMQ.Client;
 using Serilog;
-using System.Collections.ObjectModel;
 using System.IO;
 using System.Text;
 using System.Windows;
