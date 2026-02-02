@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "OrderConsumerService\\OrderConsumerService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "OrderProducerWPF\\OrderProducerWPF.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
